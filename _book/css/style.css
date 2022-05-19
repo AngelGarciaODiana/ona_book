@@ -1,0 +1,74 @@
+.infobox {
+  padding: 1em 1em 1em 10em;
+  margin-bottom: 10px;
+  background: lightgray 5px center/3em no-repeat;
+  border: 2px solid orange;
+  border-radius: 10px;
+}
+
+.caution {
+  background-image: url("../www/caution.png");
+}
+
+.ukraine {
+  background-image: url("../www/ukraine.png");
+   background-size: 150px 150px;
+   background-repeat: no-repeat;
+}
+
+.thinkahead {
+  padding: 1em 1em 0.15em 1em;
+  margin: 1em 0;
+  color: #272727;
+  background-color: #d6faff;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.thinkahead code {
+  background-color: #d6faff;
+}
+
+.banner {
+  background: #6f1548;
+}
+
+.banner__content {
+  padding: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.banner__text {
+  flex-grow: 1;
+  line-height: 1.4;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.banner__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.banner__text,
+.banner__close>span {
+  color: #ffffff;
+}
+
+.banner__text a:link {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+.banner__text a:visited {
+    color: #FFFFFF !important;
+    text-decoration: underline !important;
+}
+
+.material-icons {
+  font-size: 14px;
+}
