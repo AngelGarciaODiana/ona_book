@@ -1,9 +1,9 @@
 --- 
 title: "Handbook of Graphs and Networks in People Analytics"
-subtitle: "With Examples in R and Python"
 author: "Keith McNulty"
-site: bookdown::bookdown_site
-always_allow_html: true
+subtitle: With Examples in R and Python
+output: pdf_document
+always_allow_html: yes
 documentclass: krantz
 bibliography: r/book.bib
 csl: r/apa.csl
@@ -12,11 +12,13 @@ params:
 fig-caption: yes
 link-citations: yes
 github-repo: keithmcnulty/ona_book
-pagetitle: "Handbook of Graphs and Networks in People Analytics"
-description:  "A technical manual of graphs, networks and their applications in the people and social sciences"
-url:  "https://ona-book.org"
-cover-image: "https://ona-book.org/www/cover/cover-ona.png"
-twitter-handle: "dr_keithmcnulty"
+pagetitle: Handbook of Graphs and Networks in People Analytics
+description: A technical manual of graphs, networks and their applications in the
+  people and social sciences
+url: https://ona-book.org
+cover-image: https://ona-book.org/www/cover/cover-ona.png
+twitter-handle: dr_keithmcnulty
+site: bookdown::bookdown_site
 ---
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
